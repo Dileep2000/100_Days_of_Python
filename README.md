@@ -11,3 +11,7 @@ It is a simple program that uses the understading how inputs, strings, and print
 
 Tip Calculator is a simple program that will tell us how much amount of bill to be paid by each person after tipping a certain ammount of the total bill.
 It is a simple program that uses the understading how data types, type conversions, mathematical operations, and string formatting using f string works in python.
+
+# Day 3 Treasure Hunt
+
+Treasure Hunt is a game where you have to find the treasure based on the choices given. It uses the understanding of Control flow statements in python.
