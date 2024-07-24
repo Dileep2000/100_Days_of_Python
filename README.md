@@ -15,3 +15,7 @@ It is a simple program that uses the understading how data types, type conversio
 # Day 3 Treasure Hunt
 
 Treasure Hunt is a game where you have to find the treasure based on the choices given. It uses the understanding of Control flow statements in python.
+
+# Day 4 Rock Paper Scissors
+
+Rock Paper Scissors is a simple game where you choose one of the three and computer chooses one of the three and compare one with another and determine who wins. It uses the understanding of random module in python.
