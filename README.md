@@ -19,3 +19,7 @@ Treasure Hunt is a game where you have to find the treasure based on the choices
 # Day 4 Rock Paper Scissors
 
 Rock Paper Scissors is a simple game where you choose one of the three and computer chooses one of the three and compare one with another and determine who wins. It uses the understanding of random module in python.
+
+# Day 5 Password Generator
+
+Password Generator is a program that generates random passwords for you based on simple requirements like the length of the password and number of alphabets, digits and other punctuation characters would you like in the password. It is simple program that is used understanding of loops and random.
