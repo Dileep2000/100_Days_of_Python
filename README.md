@@ -27,3 +27,7 @@ Password Generator is a program that generates random passwords for you based on
 # Day 6 Functions and while Loops
 
 On Day 6 we learnt about Functions and while loops. Using them we have cleared some puzzles in [Reborgs world](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Alone&url=worlds%2Ftutorial_en%2Falone.json).
+
+# Day 7 Hangman
+
+On Day 7 we utilized every thing that we have learned from past 6 days to create a simple hangman game. We need to guess the random word within the 6 lifes that we have. It is fun playing.
