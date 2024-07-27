@@ -23,3 +23,7 @@ Rock Paper Scissors is a simple game where you choose one of the three and compu
 # Day 5 Password Generator
 
 Password Generator is a program that generates random passwords for you based on simple requirements like the length of the password and number of alphabets, digits and other punctuation characters would you like in the password. It is simple program that is used understanding of loops and random.
+
+# Day 6 Functions and while Loops
+
+On Day 6 we learnt about Functions and while loops.
