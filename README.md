@@ -26,4 +26,4 @@ Password Generator is a program that generates random passwords for you based on
 
 # Day 6 Functions and while Loops
 
-On Day 6 we learnt about Functions and while loops.
+On Day 6 we learnt about Functions and while loops. Using them we have cleared some puzzles in <a to="https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Alone&url=worlds%2Ftutorial_en%2Falone.json">Reborgs world</a>.
