@@ -31,3 +31,7 @@ On Day 6 we learnt about Functions and while loops. Using them we have cleared s
 # Day 7 Hangman
 
 On Day 7 we utilized every thing that we have learned from past 6 days to create a simple hangman game. We need to guess the random word within the 6 lifes that we have. It is fun playing.
+
+# Day 8 CAESAR CIPHER
+
+On Day 8 we learn function parameters and using them we develop CAESER CIPHER program. It can decrypt or encrypt your message based on the shift. Shift is a number that the alphabet is  shifted by. A shift by 5 will become F.
