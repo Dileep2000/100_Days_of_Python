@@ -28,6 +28,18 @@ def decrypt(text,shift):
                 decrypted_text += chr(ord(i) - shift)
     return decrypted_text
 
+def caesar(test, shift, encrypt_or_decrypt):
+    return_text = ""
+    for i in text:
+        if i.isalpha():
+            if encrypt_or_decrypt.lower() == "decrypt":
+                return_text += decrypt(i,shift=shift)
+            else:
+                return_text += encrypt(i,shift=shift)
+        else:
+            return_text += i
+    return return_text
+
 if __name__ == "__main__":
     print("""
                                             _       _               
@@ -40,6 +52,12 @@ if __name__ == "__main__":
                                      |_|     
         """)
     print("Welcome tp CAESAR CIPHER!")
-    text = input("Please enter your text to be encrypted\n")
-    shift = int(input("Please type the shift number: "))
-    print(decrypt(text,shift))
+    while True:
+        encrypt_or_decrypt = input("What to you like to do Encrypt or Decrypt? ")
+        text = input(f"Please enter your text to be {encrypt_or_decrypt}\n")
+        shift = int(input("Please type the shift number: "))
+        print(f"The {encrypt_or_decrypt.capitalize()} text is {caesar(text,shift,encrypt_or_decrypt)}")
+        continue_or_not = input("Would to like to continue to encrypt or decrypt or would you like to exit? Type 'yes' to continue and 'no' to exit: ")
+        if continue_or_not.lower() == "no":
+            print("Goodbye. Thank you for using CAESAR CIPHER. Please visit again!!")
+            break
