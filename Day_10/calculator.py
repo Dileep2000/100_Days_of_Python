@@ -1,4 +1,5 @@
-print("""
+import os
+logo = """
  _____________________
 |  _________________  |
 | | Pythonista   0. | |  .----------------.  .----------------.  .----------------.  .----------------. 
@@ -13,33 +14,43 @@ print("""
 | | . | 0 | = | | / | | | '--------------' || '--------------' || '--------------' || '--------------' |
 | |___|___|___| |___| |  '----------------'  '----------------'  '----------------'  '----------------' 
 |_____________________|
-""")
+"""
 
 print("Welcome to the Calculator APP!!")
 
-def add(a,b):
+
+def add(a, b):
     return a + b
-def subtract(a,b):
+
+
+def subtract(a, b):
     return a-b
-def divide(a,b):
+
+
+def divide(a, b):
     return a/b
-def multiply(a,b):
+
+
+def multiply(a, b):
     return a*b
 
+
 operations = {
-    "+":add,
-    "-":subtract,
-    "/":divide,
-    "*":multiply,
+    "+": add,
+    "-": subtract,
+    "/": divide,
+    "*": multiply,
 }
 
-num1 = float(input("What's the first number?: "))
 exit = False
 while not exit:
+    print(logo)
+    num1 = float(input("What's the first number?: "))
     while True:
-        operation =""
+        operation = ""
         while True:
-            operation = input(f"Pick and Operation from the options {' or '.join(operations.keys())} : ").lower()
+            operation = input(
+                f"Pick and Operation from the options {' or '.join(operations.keys())} : ").lower()
             if operation not in operations.keys():
                 print("Invalid operation. please try again.")
             else:
@@ -49,6 +60,7 @@ while not exit:
         print(f"{num1} {operation} {num2} = {answer}")
         option = input("Would you like to use the current operation result as next input?\nType 'Y' to use the current operation result or 'C' or Continue with new operation or 'N' to exit: ").lower()
         if option == 'c':
+            os.system("cls")
             break
         elif option == 'y':
             num1 = answer
