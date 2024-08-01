@@ -35,3 +35,11 @@ On Day 7 we utilized every thing that we have learned from past 6 days to create
 # Day 8 CAESAR CIPHER
 
 On Day 8 we learn function parameters and using them we develop CAESER CIPHER program. It can decrypt or encrypt your message based on the shift. Shift is a number that the alphabet is  shifted by. A shift by 5 will become F.
+
+# Day 9 Silent Bidding
+
+On Day 9 we learn about dictionaries. Silent Bidding is a bidding auction where everyone gives their bid ammout and it gives who won the bid.
+
+# Day 10 Calculator
+
+on Day 10 we learn about Function outputs. Using function outputs we create a calculator with simple mathmetical operations.
